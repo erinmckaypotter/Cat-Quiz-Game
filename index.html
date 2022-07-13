@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cat Quiz</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- 1. jQuery JS file-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- 2. jQuery UI JS file -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <!-- 3. jquery ui theme css file -->
+    <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>CAT QUIZ</h1>
+      <h2>Test your Kitty Knowledge!</h2>
+
+      <h4 id="counter" class="colored-counter"></h4>
+
+      <p>Your Progress:</p>
+      <div id="progressbar"></div>
+
+      <h4 id="point_value"></h4>
+      
+      <h3 id="question"></h3>
+      
+      <div id="answers"></div>
+
+      <p id="instructions" class="emphasis">
+        Drag and Drop your answer onto the Question!
+      </p>
+      
+      <div id="wrong"></div>
+      
+      <div id="right"></div>
+
+      <div id="dialog" title="Good Job!"></div>
+
+      <div id="next_question"></div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
